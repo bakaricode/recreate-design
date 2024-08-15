@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+  }
+  
+  header {
+    color: pink;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+    align-items: center;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+  }
+  
+  main {
+    text-align: center
+  }
+  
+  a {
+    text-decoration: none;
+    color: pink;
+  }
+  
+  a.button {
+    background-color: #fed330;
+    font-size: 1.5rem;
+    color: black;
+    gap: 2rem;
+    padding: 1.5rem;
+    margin: 2rem;
+    border-radius: .5rem;
+  }
+  
+  button {
+    background-color: #fed330;
+    font-size: 1.5rem;
+      margin: 3rem;
+    padding: 1.5rem;
+    border-radius: .5rem;
+  }
+
+  img {
+    max-width: 79%;
+    padding: 3rem;
+  }
